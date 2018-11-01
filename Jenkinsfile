@@ -17,7 +17,7 @@ def xcenterip = "xcenter.host "
 pipeline {
 
     agent {
-        label 'kubehost'
+        label 'Master'
     }
 
 
